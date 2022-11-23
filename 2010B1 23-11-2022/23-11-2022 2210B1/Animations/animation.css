@@ -1,0 +1,54 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background: blueviolet;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+animation-direction: alternate;
+/* chrome */
+-webkit-height: 100px;
+-webkit-width: 100px;
+-webkit-background: blueviolet;
+-webkit-position: relative;
+-webkit-animation-name: myAnimation;
+-webkit-animation-duration: 3s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: 2s;
+-webkit-animation-iteration-count: 3;
+-webkit-animation-direction: alternate;
+
+/* moz */
+-moz-height: 100px;
+-moz-width: 100px;
+-moz-background: blueviolet;
+-moz-position: relative;
+-moz-animation-name: myAnimation;
+-moz-animation-duration: 3s;
+-moz-animation-timing-function: linear;
+-moz-animation-delay: 2s;
+-moz-animation-iteration-count: 3;
+-moz-animation-direction: alternate;
+}
+
+
+
+@keyframes myAnimation {
+from {background: red;}
+to {background: yellow;}
+ }
+ @-moz-keyframes myAnimation {
+from {background: red;}
+to {background: yellow;}
+ }
+ @-webkit-keyframes myAnimation {
+from {background: red;}
+to {background: yellow;}
+ }
+ @-o-keyframes myAnimation {
+from {background: red;}
+to {background: yellow;}
+ }

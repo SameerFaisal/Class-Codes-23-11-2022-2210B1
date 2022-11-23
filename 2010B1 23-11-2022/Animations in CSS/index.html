@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: 5;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes example {
+  0%   {color:red; left:0px; top:0px; background-color: blueviolet; }
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:200px; top:200px; background-color:cadetblue;}
+  75%  {color:green; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px; background-color: darkgoldenrod;}
+}
+</style>
+</head>
+<body>
+
+
+
+<div></div>
+
+
+
+</body>
+</html>
+
+

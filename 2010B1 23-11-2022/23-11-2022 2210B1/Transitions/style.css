@@ -1,0 +1,8 @@
+div
+{
+    background-color: black;
+transition: width 3s;
+-moz-transition: width 3s; /* Firefox 4 */
+-webkit-transition: width 3s; /* Safari and Chrome */
+-o-transition: width 3s; /* Opera */
+}
